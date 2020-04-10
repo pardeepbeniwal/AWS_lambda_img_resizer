@@ -1,0 +1,20 @@
+{
+  "dev": {
+
+    "project_name": "img_resizer",
+    "manage_roles": false,
+    "role_name": "ZappaLambdaExecution",
+    "profile_name": "default",
+    "log_level": "DEBUG",
+    "route53_enabled": false,
+    "timeout_seconds": 5,
+    "lambda_handler": "resizer.lambda_handler",
+    "handler_path": "handler",
+    "lambda_name":"resizer",
+    "apigateway_enabled": false,
+    "keep_warm": false,
+    "s3_bucket": "client-photo",
+    "runtime": "python3.6",
+    "aws_region": "us-east-1",
+  },
+}
